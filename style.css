@@ -608,13 +608,21 @@ img {
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 470px) {
     .wrapping{
         height: 100vh;
     }
 
     .Contact .cardSosmed p {
         font-size: 9px;
+    }
+
+    .card h2 {
+        font-size: 1.1em;
+    }
+
+    .card p {
+        font-size: 0.6em
     }
 
     .footer img {
